@@ -1,0 +1,65 @@
+﻿﻿@using KazahStore.Data.Enum
+@using KazahStore.ViewModels
+@model CreateStoreViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="main-container">
+    <section class="space-sm">
+        <div class="container">
+            <div class="row mb-5">
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+            <div class="row flex-md-row card card-md">
+                <div class="card-body bg-secondary">
+                    <div class="text-center mb-5">
+                        <h1 class="h2 mb-2">Панель добовления заказов</h1>
+                        <span></span>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-lg-5">
+                            <form method="post" asp-action="Create" enctype="multipart/form-data">
+                                <input type="hidden" id="AppUserId" name="AppUserId" asp-for="AppUserId" />
+                                <div class="form-row form-group">
+                                    <div class="col">
+                                        <input asp-for="Title" class="form-control form-control-lg" placeholder="Title" />
+                                        <span asp-validation-for="Title" class="text-danger"></span>
+                                    </div>
+                                    <div class="col">
+                                        <select asp-for="StoreCategory" asp-items="@Html.GetEnumSelectList<StoreCategory>()" class="form-control form-control-lg">
+                                            <option>--Select--</option>
+                                        </select>
+                                        <span asp-validation-for="StoreCategory" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-row form-group">
+                                    <div class="col">
+                                        <textarea asp-for="Description" class="form-control form-control-lg" rows="3" placeholder="Description"></textarea>
+                                        <span asp-validation-for="Description" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-row form-group">
+                                    <div class="col">
+                                        <input asp-for="Image" type="file" class="form-control form-control-lg" placeholder="Image" />
+                                        <span asp-validation-for="Image" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-row form-group">
+                                    <div class="col">
+                                        <button class="btn btn-block btn-success btn-lg" type="submit">Создать лот</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of container-->
+    </section>
+    <!--end of section-->
+</div>
