@@ -1,5 +1,5 @@
 # Сырой проект ASP.NET Core MVC
-[![video](Image/image-01.png)](https://youtu.be/wYtKgQM6gzI)
+[![video](Image/Image-01.png)](https://youtu.be/wYtKgQM6gzI)
 
 ### список пользователей 
 ![](Image/image-02.png)
