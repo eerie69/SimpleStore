@@ -17,6 +17,6 @@
 ![](Image/Image-06.png)
 
 ### Детали продукта
-![](Image/Image-07.png)
+![](Image/image-07.png)
 
 
