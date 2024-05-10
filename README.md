@@ -2,21 +2,21 @@
 [![video](Image/Image-01.png)](https://youtu.be/wYtKgQM6gzI)
 
 ### список пользователей 
-![](Image/image-02.png)
+![](Image/Image-02.png)
 
 ### профиль
-![](Image/image-04.png)
+![](Image/Image-03.png)
 
 ### Настройка профилья 
-![](Image/image-03.png)
+![](Image/Image-04.png)
 
 ### Доболения продукта
-![](Image/image-05.png)
+![](Image/Image-05.png)
 
 ### Списко продуктов
-![](Image/image-06.png)
+![](Image/Image-06.png)
 
 ### Детали продукта
-![](Image/image-07.png)
+![](Image/Image-07.png)
 
 
